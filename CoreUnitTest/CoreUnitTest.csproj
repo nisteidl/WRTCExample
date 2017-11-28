@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Platforms>AnyCPU;x64;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StandardLibrary\StandardLibrary.csproj" />
-    <ProjectReference Include="..\WindowsRuntimeComponent\WindowsRuntimeComponent.vcxproj" />
   </ItemGroup>
 
 </Project>
